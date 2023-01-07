@@ -1,0 +1,51 @@
+.respuestas{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.respuesta{
+    margin: auto;
+    width: 400px;
+}
+
+.respuesta p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #333;
+    width: auto;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 80px;
+    padding: 20px;
+    
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.go-to-form-link{
+    align-self: flex-end;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.go-to-form-link:hover{
+    color:white;
+}
+
